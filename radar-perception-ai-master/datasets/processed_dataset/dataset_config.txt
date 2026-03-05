@@ -1,0 +1,8 @@
+Dataset Configuration
+================================================================================
+Points per frame: 64
+Features: ['x', 'y', 'z', 'velocity', 'snr']
+Number of features: 5
+Normalization: Disabled
+Ground truth source: *_summary_all.csv files
+Data shape per sample: (64, 5)

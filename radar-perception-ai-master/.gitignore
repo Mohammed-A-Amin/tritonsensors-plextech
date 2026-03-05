@@ -1,0 +1,45 @@
+# Data files (large, should not be committed)
+data/raw/*
+data/processed/*
+data/exports/*
+!data/*/.gitkeep
+
+# ONNX models (large, download separately)
+**/*.onnx
+!**/.gitkeep
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Calibration data (may contain sensitive info)
+# Uncomment if you want to exclude
+# calibration_data/correspondences.csv

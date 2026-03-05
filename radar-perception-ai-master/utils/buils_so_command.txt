@@ -1,0 +1,8 @@
+cd /mnt/e/MyProject/__WORK__/RoniaCompany/__Projects__/10-Ultra-V2/__AI_Models/02-PintNet/02-pytorch/pointnet.pytorch-master/utils
+
+
+g++ -std=c++11 $SCRIPTPATH ./render_balls_so.cpp -o $SCRIPTPATH ./render_balls_so.so -shared -fPIC -O2 -D_GLIBCXX_USE_CXX11_ABI=0
+
+
+g++ -std=c++11 $SCRIPTPATH/../utils/render_balls_so.cpp -o $SCRIPTPATH/../utils/render_balls_so.so -shared -fPIC -O2 -D_GLIBCXX_USE_CXX11_ABI=0
+

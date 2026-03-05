@@ -1,0 +1,96 @@
+
+
+
+ Loading dataset...
+Data shape: (11497, 1024, 5)
+Labels shape: (11497,)
+Number of classes: 3
+Class distribution: [   0 3829 3830 3838]
+Data shape: (2870, 1024, 5)
+Labels shape: (2870,)
+Number of classes: 3
+Class distribution: [  0 955 957 958]
+Using device: cuda
+
+Model architecture:
+Total parameters: 3,466,589
+Trainable parameters: 3,466,589
+
+Starting training...
+Epoch 001/50 | Train Loss: 0.8566 | Train Acc: 74.11% | Test Acc: 72.20% | Test F1: 72.80% | LR: 0.001000
+Epoch 002/50 | Train Loss: 0.6090 | Train Acc: 39.56% | Test Acc: 39.90% | Test F1: 31.85% | LR: 0.001000
+Epoch 003/50 | Train Loss: 0.5264 | Train Acc: 83.33% | Test Acc: 80.49% | Test F1: 80.41% | LR: 0.001000
+Epoch 004/50 | Train Loss: 0.4656 | Train Acc: 82.99% | Test Acc: 80.70% | Test F1: 80.34% | LR: 0.001000
+Epoch 005/50 | Train Loss: 0.4412 | Train Acc: 87.39% | Test Acc: 84.25% | Test F1: 84.24% | LR: 0.001000
+Epoch 006/50 | Train Loss: 0.3894 | Train Acc: 88.34% | Test Acc: 84.22% | Test F1: 84.24% | LR: 0.001000
+Epoch 007/50 | Train Loss: 0.3491 | Train Acc: 89.02% | Test Acc: 84.67% | Test F1: 84.64% | LR: 0.001000
+Epoch 008/50 | Train Loss: 0.3591 | Train Acc: 85.54% | Test Acc: 80.59% | Test F1: 80.17% | LR: 0.001000
+Epoch 009/50 | Train Loss: 0.3165 | Train Acc: 89.53% | Test Acc: 86.69% | Test F1: 86.61% | LR: 0.001000
+Epoch 010/50 | Train Loss: 0.2912 | Train Acc: 91.54% | Test Acc: 86.97% | Test F1: 87.04% | LR: 0.001000
+Epoch 011/50 | Train Loss: 0.2717 | Train Acc: 93.33% | Test Acc: 88.40% | Test F1: 88.41% | LR: 0.001000
+Epoch 012/50 | Train Loss: 0.2482 | Train Acc: 90.38% | Test Acc: 85.40% | Test F1: 85.11% | LR: 0.001000
+Epoch 013/50 | Train Loss: 0.2349 | Train Acc: 92.11% | Test Acc: 86.86% | Test F1: 86.73% | LR: 0.001000
+Epoch 014/50 | Train Loss: 0.2376 | Train Acc: 88.44% | Test Acc: 82.96% | Test F1: 82.15% | LR: 0.001000
+Epoch 015/50 | Train Loss: 0.2195 | Train Acc: 94.10% | Test Acc: 87.74% | Test F1: 87.59% | LR: 0.001000
+Epoch 016/50 | Train Loss: 0.2128 | Train Acc: 92.50% | Test Acc: 84.67% | Test F1: 84.42% | LR: 0.001000
+Epoch 017/50 | Train Loss: 0.2118 | Train Acc: 94.80% | Test Acc: 87.42% | Test F1: 87.29% | LR: 0.001000
+Epoch 018/50 | Train Loss: 0.1856 | Train Acc: 91.72% | Test Acc: 84.11% | Test F1: 83.85% | LR: 0.001000
+Epoch 019/50 | Train Loss: 0.1866 | Train Acc: 91.59% | Test Acc: 84.81% | Test F1: 84.18% | LR: 0.001000
+Epoch 020/50 | Train Loss: 0.1875 | Train Acc: 95.49% | Test Acc: 88.19% | Test F1: 88.15% | LR: 0.001000
+Epoch 021/50 | Train Loss: 0.1230 | Train Acc: 97.81% | Test Acc: 89.86% | Test F1: 89.76% | LR: 0.000500
+Epoch 022/50 | Train Loss: 0.1069 | Train Acc: 96.96% | Test Acc: 88.57% | Test F1: 88.31% | LR: 0.000500
+Epoch 023/50 | Train Loss: 0.0963 | Train Acc: 97.26% | Test Acc: 87.67% | Test F1: 87.37% | LR: 0.000500
+Epoch 024/50 | Train Loss: 0.0934 | Train Acc: 98.49% | Test Acc: 90.38% | Test F1: 90.31% | LR: 0.000500
+Epoch 025/50 | Train Loss: 0.0774 | Train Acc: 97.49% | Test Acc: 88.61% | Test F1: 88.48% | LR: 0.000500
+Epoch 026/50 | Train Loss: 0.0850 | Train Acc: 97.17% | Test Acc: 87.25% | Test F1: 86.98% | LR: 0.000500
+Epoch 027/50 | Train Loss: 0.0671 | Train Acc: 96.65% | Test Acc: 86.86% | Test F1: 86.57% | LR: 0.000500
+Epoch 028/50 | Train Loss: 0.0870 | Train Acc: 97.78% | Test Acc: 88.57% | Test F1: 88.39% | LR: 0.000500
+Epoch 029/50 | Train Loss: 0.0749 | Train Acc: 98.31% | Test Acc: 88.64% | Test F1: 88.53% | LR: 0.000500
+Epoch 030/50 | Train Loss: 0.0718 | Train Acc: 98.31% | Test Acc: 87.32% | Test F1: 87.03% | LR: 0.000500
+Epoch 031/50 | Train Loss: 0.0658 | Train Acc: 98.15% | Test Acc: 87.94% | Test F1: 87.69% | LR: 0.000500
+Epoch 032/50 | Train Loss: 0.0624 | Train Acc: 98.24% | Test Acc: 87.56% | Test F1: 87.32% | LR: 0.000500
+Epoch 033/50 | Train Loss: 0.0813 | Train Acc: 98.53% | Test Acc: 88.99% | Test F1: 88.86% | LR: 0.000500
+Epoch 034/50 | Train Loss: 0.0558 | Train Acc: 99.02% | Test Acc: 87.87% | Test F1: 87.65% | LR: 0.000500
+Epoch 035/50 | Train Loss: 0.0569 | Train Acc: 98.63% | Test Acc: 88.12% | Test F1: 87.98% | LR: 0.000500
+Epoch 036/50 | Train Loss: 0.0588 | Train Acc: 95.96% | Test Acc: 85.51% | Test F1: 85.16% | LR: 0.000500
+Epoch 037/50 | Train Loss: 0.0626 | Train Acc: 98.23% | Test Acc: 88.08% | Test F1: 87.89% | LR: 0.000500
+Epoch 038/50 | Train Loss: 0.0590 | Train Acc: 99.63% | Test Acc: 89.65% | Test F1: 89.59% | LR: 0.000500
+Epoch 039/50 | Train Loss: 0.0460 | Train Acc: 99.64% | Test Acc: 90.07% | Test F1: 90.02% | LR: 0.000500
+Epoch 040/50 | Train Loss: 0.0422 | Train Acc: 99.51% | Test Acc: 88.50% | Test F1: 88.36% | LR: 0.000500
+Epoch 041/50 | Train Loss: 0.0186 | Train Acc: 99.87% | Test Acc: 88.78% | Test F1: 88.64% | LR: 0.000250
+Epoch 042/50 | Train Loss: 0.0163 | Train Acc: 98.44% | Test Acc: 88.85% | Test F1: 88.76% | LR: 0.000250
+Epoch 043/50 | Train Loss: 0.0185 | Train Acc: 99.63% | Test Acc: 88.57% | Test F1: 88.41% | LR: 0.000250
+Epoch 044/50 | Train Loss: 0.0213 | Train Acc: 99.86% | Test Acc: 88.82% | Test F1: 88.68% | LR: 0.000250
+Epoch 045/50 | Train Loss: 0.0174 | Train Acc: 99.94% | Test Acc: 88.05% | Test F1: 87.89% | LR: 0.000250
+Epoch 046/50 | Train Loss: 0.0150 | Train Acc: 99.50% | Test Acc: 87.91% | Test F1: 87.66% | LR: 0.000250
+Epoch 047/50 | Train Loss: 0.0137 | Train Acc: 99.65% | Test Acc: 88.22% | Test F1: 88.05% | LR: 0.000250
+Epoch 048/50 | Train Loss: 0.0226 | Train Acc: 99.18% | Test Acc: 88.54% | Test F1: 88.26% | LR: 0.000250
+Epoch 049/50 | Train Loss: 0.0163 | Train Acc: 99.88% | Test Acc: 88.50% | Test F1: 88.41% | LR: 0.000250
+Epoch 050/50 | Train Loss: 0.0158 | Train Acc: 99.72% | Test Acc: 88.22% | Test F1: 88.04% | LR: 0.000250
+
+==================================================
+Loading best model for final evaluation...
+
+===== Final Test Evaluation =====
+Accuracy : 90.38%
+Precision: 90.29%
+Recall   : 90.39%
+F1-score : 90.31%
+Best Test Accuracy: 90.38%
+
+ 
+Per-class metrics:
+              precision    recall  f1-score   support
+
+    1 person       0.96      1.00      0.98       955
+    2 people       0.88      0.83      0.86       957
+    3 people       0.87      0.88      0.88       958
+
+    accuracy                           0.90      2870
+   macro avg       0.90      0.90      0.90      2870
+weighted avg       0.90      0.90      0.90      2870
+
+
+Models saved:
+  - best_people_count_pointnet.pth (Best test accuracy: 90.38%)
+  - final_people_count_pointnet.pth (Last epoch model)
